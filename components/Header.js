@@ -28,7 +28,7 @@ function Header() {
             {/* Right */ }
             <div className='flex items-center justify-end space-x-4 text-gray-500'>
                 <p className='hidden md:inline'>Become a host</p>
-                <GlobeAltIcon className='h-6 cursor-pointer' />
+                <GlobeAltIcon className='hidden md:inline-flex h-6 cursor-pointer' />
 
                 <div className=' flex item-center space-x-2 border-2 border-gray-300 p-2 rounded-full'>
                     <MenuIcon className='h-6 cursor-pointer'/>
