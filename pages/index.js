@@ -46,6 +46,12 @@ export default function Home({ exploreData, cardData }) {
           description='Wishlists curated by Airbnb'
           buttonText='Get Inspired'
         />
+
+        <section className='h-30 py-5 '>
+          <p className='font-bold text-2xl text-gray-600 mb-4'>
+            Any questions ?{" "}
+          </p>
+        </section>
       </main>
 
       <Footer />
