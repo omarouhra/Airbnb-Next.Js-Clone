@@ -32,7 +32,7 @@ function Search({ searchResults }) {
             <button className='button'>More filters</button>
           </div>
 
-          <div className='flex flex-col overflow-auto h-[800px]'>
+          <div className='flex flex-col xl:overflow-auto xl:h-[800px]'>
             {searchResults.map(
               ({ img, location, title, description, star, price, total }) => (
                 <InfoCard
