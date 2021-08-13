@@ -18,7 +18,7 @@ function Map({ searchResults }) {
     height: "100%",
     latitude: center.latitude,
     longitude: center.longitude,
-    zoom: 11,
+    zoom: 10,
   });
 
   console.log(selectedLocation);
@@ -36,9 +36,9 @@ function Map({ searchResults }) {
             latitude={result.lat}
             offsetLeft={-20}
             offsetTop={-10}>
-            <div className='relative flex items-center justify-center w-[40px] h-[40px] hover:scale-150 transition duration-200 ease-out'>
+            <div className='relative flex items-center justify-center w-[30px] h-[30px] hover:scale-150 transition duration-200 ease-out'>
               <Image
-                className='rounded-xl'
+                className='rounded-md'
                 src={result.img}
                 layout='fill'
                 objectFit='cover'
